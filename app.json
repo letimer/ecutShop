@@ -1,0 +1,57 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/pay/index",
+    "pages/category/index",
+    "pages/goods_list/index",
+    "pages/goods_detail/index",
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "components/SearchInput/SearchInput",
+    "components/UpImg/UpImg"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#19CAAD",
+    "backgroundTextStyle":"dark",
+    "navigationBarTitleText":"东理优购",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#999",
+    "selectedColor": "#F3AA36",
+    "backgroundColor": "#ffffff",
+    "position":"bottom" ,
+    "borderStyle": "black",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/Home.png",
+      "selectedIconPath": "icons/home_click.png"
+      }, {
+      "pagePath": "pages/category/index",
+      "text": "分类",
+      "iconPath": "icons/Category_1.png",
+      "selectedIconPath": "icons/Category.png"
+      }, {
+      "pagePath": "pages/cart/index",
+      "text": "购物车",
+      "iconPath": "icons/Cart_1.png",
+      "selectedIconPath": "icons/Cart.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "icons/myxian.png",
+        "selectedIconPath": "icons/mymian.png"
+      }
+  ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
